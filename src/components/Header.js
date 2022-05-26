@@ -1,11 +1,12 @@
 import { Container,Navbar,Nav } from "react-bootstrap";
 import {Link} from 'react-scroll'
 import header from './img/header.png'
+import logo from './img/logo-sm.png'
 const Header = () => {
     return ( 
         <Navbar expand="lg">
         {/* <Container> */}
-        <Navbar.Brand ><img src={header} alt="" className="w-50" /></Navbar.Brand>
+        <Navbar.Brand ><img src={header} className="w-50" alt=""/></Navbar.Brand>
         {/* <Navbar.Brand className="mx-3">LESLIE AYACOCHO</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">

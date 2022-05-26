@@ -1,4 +1,4 @@
-import {Button, Row, Col} from 'react-bootstrap'
+import {Button, Row, Col, Container} from 'react-bootstrap'
 const Cards = ({image, title, year, tech}) => {
     return ( 
         <>
