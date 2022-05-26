@@ -1,4 +1,4 @@
-{
+{  "homepage": "https://leslieayacocho.github.io/leslieayacocho/",
   "name": "leslieayacocho",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "https://leslieayacocho.github.io/leslieayacocho/"
+  }
+
   
 }
