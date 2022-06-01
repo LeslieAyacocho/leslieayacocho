@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { images } from "./components-project/tamms-images";
-import {Col, Row, Button} from 'react-bootstrap'
+import {Col, Row} from 'react-bootstrap'
 
 const Tamms = () => {
     const history = useHistory()

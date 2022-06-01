@@ -1,7 +1,6 @@
-import { Container,Navbar,Nav } from "react-bootstrap";
+import {Navbar,Nav } from "react-bootstrap";
 import {Link} from 'react-scroll'
 import header from './img/header.png'
-import logo from './img/logo-sm.png'
 const Header = () => {
     return ( 
         <Navbar expand="lg">

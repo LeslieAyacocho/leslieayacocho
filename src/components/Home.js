@@ -1,8 +1,6 @@
 
 import { Link as Link2} from 'react-scroll'
 
-import { Container } from 'react-bootstrap';
-
 
 import Cards from "./Cards.js" 
 

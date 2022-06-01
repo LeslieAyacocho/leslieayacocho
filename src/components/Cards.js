@@ -1,6 +1,5 @@
 import React,  {useState, useEffect} from 'react'
 
-import {Button, Row, Col, Container} from 'react-bootstrap'
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from 'react-router-dom';
     
