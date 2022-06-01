@@ -9,7 +9,7 @@ import Net from './components/projects/Net'
 import Axie from './components/projects/Axie';
 function App() {
   return (
-    <Router>
+    <Router basename="/leslieayacocho/">
 
     <div className="App">
 
