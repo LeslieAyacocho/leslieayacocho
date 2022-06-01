@@ -1,11 +1,40 @@
+import React,  {useState, useEffect} from 'react'
+
 import {Button, Row, Col, Container} from 'react-bootstrap'
-const Cards = ({image, title, year, tech}) => {
+import { motion, AnimatePresence } from "framer-motion";
+import { Link } from 'react-router-dom';
+    
+const Cards = ({image, title, year, tech, link}) => {
+    const [expanded, setExpanded] = useState(false)
+
+    useEffect(() => {
+    }, [expanded])
+    
     return ( 
         <>
-        <div className="card-project ">
-            <div className="cover-img">
-                <img src={image} className='w-100'/>
-            </div>
+        <motion.div 
+        initial={false}
+        whileInView= {() => setExpanded(true)}
+        >
+        <div className="card-project bg-white">
+            <AnimatePresence initial={false}>
+                {
+                    expanded && (
+                        <motion.div  className='cover-img'
+                        key="content"
+                        initial="collapsed"
+                        animate="open"
+                        exit="collapsed"
+                        variants={{
+                            open: { opacity: 1, height: "auto" },
+                            collapsed: { opacity: 0, height: 0 }
+                        }}
+                        transition={{ duration: .5, transition: [0.25, 0.1, 0.25, 1] }}>
+                        <img src={image} className='w-100 img-border'/>
+                    </motion.div>
+                    )
+                }
+            </AnimatePresence>
             <div className='card-labels text-center'>
                 <div className="row">
                 <span className="col-2 " >
@@ -18,13 +47,12 @@ const Cards = ({image, title, year, tech}) => {
                 {tech}
                 </span>
                 <span className="col-2 text-hover border-txt">
-                    <p>View Project</p>
+                    <Link to={link}><p>View Project</p></Link>
                 </span>
                 </div>
-            </div>
-
-            
+            </div>            
         </div>
+        </motion.div>
         </>
     );
 }
