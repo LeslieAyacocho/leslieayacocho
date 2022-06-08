@@ -13,7 +13,7 @@ const Cards = ({image, title, year, tech, link}) => {
         <>
         <motion.div 
         initial={false}
-        whileInView= {() => setExpanded(true)}
+        onClick= {() => setExpanded(expanded ? false : true)}
         >
         <div className="card-project bg-white">
             <AnimatePresence initial={false}>

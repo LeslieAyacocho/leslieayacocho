@@ -117,8 +117,14 @@ nav{
   font-size: 1.2vw;
 }
 
+.card-labels:hover{
+  background-color: #211e1e8c
+}
 .border-txt{
   border-left: .11vw solid var(--black);
+}
+.border-txt a{
+  text-decoration: underline !important; 
 }
 
 .space{
@@ -281,3 +287,9 @@ nav{
   cursor: pointer;
 }
 
+.web-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
