@@ -1,10 +1,22 @@
 import Header from '../Header2';
-
+import * as React from "react";
+import { useEffect } from "react";
 import image from '../img/ui designs/baliuag.png'
+import { motion, AnimatePresence } from "framer-motion";
 
 const Baliuag = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return ( 
-        <>  
+        <>
+        <motion.div 
+        initial={{width: 0}}
+        animate={{width: "100%"}}
+        exit={{x: "100%"}}
+        >  
         <Header />
         <div className="project-page">
             <div className='text-body '>
@@ -14,7 +26,7 @@ const Baliuag = () => {
                 <p><i>January 2022</i></p>
 
                 <hr />
-                {/* <a href="https://github.com/LeslieAyacocho/API-cryptosnews"><i class="fab fa-github"></i> : https://github.com/LeslieAyacocho/API-cryptosnews</a> */}
+                <a href="https://www.figma.com/file/gECyHBRSk6JVgUCDJJNxGR/Baliuag-University?node-id=0%3A1"><i class="fab fa-figma"></i> : https://www.figma.com/file/gECyHBRSk6JVgUCDJJNxGR/Baliuag-University?node-id=0%3A1</a>
             </div>
 
             <div className="web-img">
@@ -23,6 +35,7 @@ const Baliuag = () => {
 
 
         </div>
+        </motion.div>
         </>
     );
 }

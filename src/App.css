@@ -166,6 +166,10 @@ nav{
   border-right: 2px solid var(--black);
 }
 
+.text-body a{
+  text-decoration: underline;
+}
+
 .project-page button{
   font-size: 3vh;
   color: var(--black);
@@ -198,7 +202,6 @@ nav{
 }
 
 .text-body a{
-  text-decoration: none;
   color: var(--black)
 }
 
@@ -292,4 +295,35 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact-page h4{
+  color: var(--white);
+}
+.contact-page{
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+}
+.contact-page span,
+.contact-page a{
+  color: var(--white);
+  padding: .3vw;
+}
+
+.contact-page i{
+  padding: .3vw;
+}
+.contact-page .col{
+  border-left: solid 1px var(--white);
+  padding: 1vw;
+}
+
+.contact-page .no-border{
+  border: 0px transparent;
+}
+
+.text-body-home{
+  padding: 1vw;
+  border-bottom: solid 2px var(--white)
 }

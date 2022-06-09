@@ -14,7 +14,7 @@ import GivingTuesday from './img/GivingTuesday.png'
 import MagisSolutions from './img/MaigsSolutions.png' 
 import oats from './img/oats/home.PNG'
 import { motion } from "framer-motion"
-
+import {Row, Col} from 'react-bootstrap'
 const Home = () => {
     return (
         <>
@@ -87,24 +87,36 @@ const Home = () => {
             <h4 className='p-3 title-section'> UI DESIGNS</h4>
 
         
-                <Cards image={Baliuag} title={'Baliuag University'} year={'2022'} tech={'Adobe XD'} link={'/design/baliuag-university'}/>
+                <Cards image={Baliuag} title={'Baliuag University'} year={'2022'} tech={'Figma'} link={'/design/baliuag-university'}/>
         
 
                 <div className='space'></div>
 
         
-                <Cards image={GivingTuesday} title={'GivingTuesday'} year={'2021'} tech={'Adobe XD'} link={'/design/giving-tuesday'}/>
+                <Cards image={GivingTuesday} title={'GivingTuesday'} year={'2021'} tech={'Figma'} link={'/design/giving-tuesday'}/>
         
 
                 <div className='space'></div>
 
         
-                <Cards image={MagisSolutions} title={'MagisSolutions'} year={'2021'} tech={'Adobe XD'} link={'/design/magis-solutions'}/>
+                <Cards image={MagisSolutions} title={'MagisSolutions'} year={'2021'} tech={'Figma'} link={'/design/magis-solutions'}/>
         
 
                 <div className='space'></div>
 
-        </div>
+            </div>
+            <div className='space-break'></div>
+            <div id="contact" className="contact-page">
+                <div className="text-body-home">
+                    <h4>Contact</h4>
+                </div>
+            <Row>
+                <Col className='no-border'><i class="fas fa-envelope"></i> Email: lesliejayne.ayacocho@gmail.com</Col>
+                <Col><i class="fas fa-phone-alt"></i> Contact no: +639669213916 </Col>
+                <Col><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/leslie-ayacocho">linkedin.com/in/leslie-ayacocho</a> </Col>
+                <Col><i class="fab fa-github"></i> Github: <a href="https://github.com/LeslieAyacocho/">github.com/LeslieAyacocho/</a> </Col>
+            </Row>
+            </div>
         </motion.div>
 
         </>
