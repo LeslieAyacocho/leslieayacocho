@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/leslieayacocho/static/css/main.402954ed.css",
-    "main.js": "/leslieayacocho/static/js/main.04d652d7.js",
-    "static/media/magis.png": "/leslieayacocho/static/media/magis.b89bef9056caf370dbb1.png",
-    "static/media/baliuag.png": "/leslieayacocho/static/media/baliuag.a76fba02251733ffbd9e.png",
+    "main.css": "/leslieayacocho/static/css/main.7bb21863.css",
+    "main.js": "/leslieayacocho/static/js/main.f820d36c.js",
     "static/media/MaigsSolutions.png": "/leslieayacocho/static/media/MaigsSolutions.69a411877c703c008cc6.png",
     "static/media/GivingTuesday.png": "/leslieayacocho/static/media/GivingTuesday.e88fd4a36bed26caabe2.png",
     "static/media/Baliuag.png": "/leslieayacocho/static/media/Baliuag.f3e7e2c57b831a1326d7.png",
@@ -12,34 +10,12 @@
     "static/media/TAMMS.png": "/leslieayacocho/static/media/TAMMS.775af368fed22549a183.png",
     "static/media/oats.png": "/leslieayacocho/static/media/oats.fdc269028503f8029df6.png",
     "static/media/cryptonews.png": "/leslieayacocho/static/media/cryptonews.147c6af51dded7fdaa5d.png",
-    "static/media/Giving.png": "/leslieayacocho/static/media/Giving.eeae52a70c6daf4e2d7a.png",
-    "static/media/global.png": "/leslieayacocho/static/media/global.fd1c4cad88efb0e9e3cd.png",
-    "static/media/news.png": "/leslieayacocho/static/media/news.a96edb9405706f28d7c1.png",
-    "static/media/register.png": "/leslieayacocho/static/media/register.43c56db896c7e98c82d7.png",
-    "static/media/3.png": "/leslieayacocho/static/media/3.8f0915f4e2abb8353228.png",
-    "static/media/2.PNG": "/leslieayacocho/static/media/2.d6ca5f0093163dd10f69.PNG",
-    "static/media/login.png": "/leslieayacocho/static/media/login.102d02ef788b38dd0cd4.png",
-    "static/media/tamms.png": "/leslieayacocho/static/media/tamms.102d02ef788b38dd0cd4.png",
-    "static/media/axie.png": "/leslieayacocho/static/media/axie.5dc251cfc7ce7a737658.png",
-    "static/media/5.PNG": "/leslieayacocho/static/media/5.babfd409c20f2f8f60e9.PNG",
-    "static/media/1.PNG": "/leslieayacocho/static/media/1.b9e51f3a94e900c0da4d.PNG",
-    "static/media/home.PNG": "/leslieayacocho/static/media/home.af1f9b1ef52afb27e9b6.PNG",
-    "static/media/3.PNG": "/leslieayacocho/static/media/3.82c01015b40486d1e24e.PNG",
-    "static/media/eonet.png": "/leslieayacocho/static/media/eonet.3f7a9a49de0864d10ca1.png",
-    "static/media/6.PNG": "/leslieayacocho/static/media/6.9ed3b48edcad2e2e9cf1.PNG",
-    "static/media/countries.png": "/leslieayacocho/static/media/countries.ed5b330602e1eb2f5f55.png",
-    "static/media/4.PNG": "/leslieayacocho/static/media/4.e9c6e2d7828941f65cf6.PNG",
-    "static/media/4.png": "/leslieayacocho/static/media/4.1f8e26968f2b242f5e46.png",
-    "static/media/landmarks.png": "/leslieayacocho/static/media/landmarks.ff8aa4ad06a9fdbe62d4.png",
-    "static/media/ranking.png": "/leslieayacocho/static/media/ranking.93044ab430afba0d93f3.png",
-    "static/media/main.png": "/leslieayacocho/static/media/main.ad4319aad2bd4144ca0e.png",
-    "static/media/net.png": "/leslieayacocho/static/media/net.e0eb37487809bdaec417.png",
     "index.html": "/leslieayacocho/index.html",
-    "main.402954ed.css.map": "/leslieayacocho/static/css/main.402954ed.css.map",
-    "main.04d652d7.js.map": "/leslieayacocho/static/js/main.04d652d7.js.map"
+    "main.7bb21863.css.map": "/leslieayacocho/static/css/main.7bb21863.css.map",
+    "main.f820d36c.js.map": "/leslieayacocho/static/js/main.f820d36c.js.map"
   },
   "entrypoints": [
-    "static/css/main.402954ed.css",
-    "static/js/main.04d652d7.js"
+    "static/css/main.7bb21863.css",
+    "static/js/main.f820d36c.js"
   ]
 }
