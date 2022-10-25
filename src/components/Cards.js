@@ -15,8 +15,8 @@ const Cards = ({image, title, year, tech, link}) => {
         initial={false}
         onClick= {() => setExpanded(expanded ? false : true)}
         >
-        <div className="card-project bg-white">
-            <AnimatePresence initial={false}>
+        <div className="card-project bg-white2">
+            {/* <AnimatePresence initial={false}>
                 {
                     expanded && (
                         <motion.div  className='cover-img'
@@ -28,29 +28,51 @@ const Cards = ({image, title, year, tech, link}) => {
                             open: { opacity: 1, height: "auto" },
                             collapsed: { opacity: 0, height: 0 }
                         }}
-                        transition={{ duration: .5, transition: [0.25, 0.1, 0.25, 1] }}>
-                        <img src={image} className='w-100 img-border'/>
+                        transition={{ duration: .3, transition: [0.1, 0.1, 0.1, 1] }}>
+                        <div className='grid flex justify-center items-centerd w-1/2'>
+                        <img src={image} className=''/>
+                        </div>
                     </motion.div>
                     )
                 }
-            </AnimatePresence>
-            <div className='card-labels text-center'>
-                <div className="row">
-                <span className="col-2 " >
-                {year}
-                </span>
-                <span className="col-4 border-txt">
-                {title}
-                </span>
-                <span className="col-4 border-txt" >
-                {tech}
-                </span>
-                <span className="col-2 text-hover border-txt">
-                    <Link to={link}><p>View Project</p></Link>
-                </span>
+            </AnimatePresence> */}
+                
+                <div className="overflow-hidden  aspect-video  cursor-pointer rounded-xl relative group">
+                            <img
+                                alt=""
+                                className="item-image"
+                                src={image}
+                            />
+                        </div>
+                </div> 
+
+                <div className='item-list'>
+                    <div className='b-left flex justify-center items-center col-span-1'>
+                    {year}
+                    </ div>
+                    < div className="b-left flex justify-center items-center col-span-2">
+                    {title}
+                    </ div>
+                    <div className="b-left flex justify-center items-center">
+                    <Link to={link} className="hover:underline"><p>View Project</p></Link>
+                </ div>
                 </div>
-            </div>            
-        </div>
+             {/* <img src={image} className=''/>
+            <div className='grid grid-cols-1 lg:grid-cols-4 item-list'>
+                <div className=' flex justify-center items-center'>
+                {year}
+                </ div>
+                < div className="b-left flex justify-center items-center">
+                {title}
+                </ div>
+                < div className="b-left flex justify-center items-center px-2" >
+                {tech}
+                </ div>
+                <div className="b-left flex justify-center items-center">
+                    <Link to={link} className="hover:underline"><p>View Project</p></Link>
+                </ div>
+            </div>             */}
+        {/* </div> */}
         </motion.div>
         </>
     );

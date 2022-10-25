@@ -16,19 +16,18 @@ function App() {
     <Router basename="/leslieayacocho/">
 
     <div className="App">
-
       <Switch>
 
       <AnimatePresence>
         <Route path="/" component={Home} exact/>
-        <Route path="/development/crypto" component={CryptoNews} exact/>
+        {/* <Route path="/development/crypto" component={CryptoNews} exact/>
         <Route path="/development/tamms" component={Tamms} exact/>
         <Route path="/development/net" component={Net} exact/>
         <Route path="/development/axie-energy-counter" component={Axie} exact/>
         <Route path="/development/oats" component={Oats} exact/>
         <Route path="/design/baliuag-university" component={Baliuag} exact/>
         <Route path="/design/giving-tuesday" component={GivingTuesday} exact/>
-        <Route path="/design/magis-solutions" component={MagisSolutions} exact/>
+        <Route path="/design/magis-solutions" component={MagisSolutions} exact/> */}
       </AnimatePresence>
       </Switch>
 
