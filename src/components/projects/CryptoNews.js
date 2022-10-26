@@ -1,158 +1,87 @@
-// import Header from '../Header2';
-// import * as React from "react";
-// import { useState, useEffect } from "react";
-// import { useHistory } from 'react-router-dom';
-// import { motion, AnimatePresence } from "framer-motion";
-// import { wrap } from "popmotion";
-// import { images } from "./components-project/crypto-images";
-// import {Col, Row} from 'react-bootstrap'
+import Header from '../Header2';
+import * as React from "react";
+import {  useEffect } from "react";
+import { useHistory } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { images } from "./components-project/crypto-images";
 
-// const CryptoNews = () => {
-//     const history = useHistory()
+
+const CryptoNews = () => {
+    const history = useHistory()
     
-//     useEffect(() => {
-//         window.scrollTo(0, 0)
-//     }, [history])
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [history])
 
-//     const variants = {
-//         enter: (direction) => {
-//             return {
-//             x: direction > 0 ? 1000 : -1000,
-//             opacity: 0
-//             };
-//         },
-//         center: {
-//             zIndex: 1,
-//             x: 0,
-//             opacity: 1
-//         },
-//         exit: (direction) => {
-//             return {
-//             zIndex: 0,
-//             x: direction < 0 ? 1000 : -1000,
-//             opacity: 0
-//             };
-//         }
-//         };
-
-//     const swipeConfidenceThreshold = 10000;
-//     const swipePower = (offset, velocity) => {
-//     return Math.abs(offset) * velocity;
-//     };
-
-//     const [[page, direction], setPage] = useState([0, 0]);
-
-//     const imageIndex = wrap(0, images.length, page);
-
-//     const paginate = (newDirection) => {
-//         setPage([page + newDirection, newDirection]);
-//     }
-
-//     return (  
+    return (  
         
-//         <>
-//         <motion.div 
-//         initial={{width: 0}}
-//         animate={{width: "100%"}}
-//         exit={{x: "100%"}}
-//         >
-//         <Header />
-//         <div className="project-page">
+        <>
+        <motion.div 
+        initial={{width: 0}}
+        animate={{width: "100%"}}
+        exit={{x: "100%"}}
+        >
+        <Header />
+        <div className="project-page">
             
-//             <div className='text-body '>
-//                 <h1>CryptoNews</h1>
-//                 <p>CryptoNews is a system output for System Architecture and Integration Course (TUP-T 2021)</p>
-//                 <p><i>March 2021</i></p>
+            <div className='text-body'>
+                {/* Title Year */}
+                <h1 className='text-title text-4xl font-bold mb-3'>CryptoNews <em>March 2021</em></h1>
 
-//                 <hr />
-//                 <a href="https://github.com/LeslieAyacocho/API-cryptosnews"><i class="fab fa-github"></i> : https://github.com/LeslieAyacocho/API-cryptosnews</a>
-//             </div>
+                {/* About Project */}
+                <div className='page-sec'>
+                        <h4 className='text-xl font-semibold'>About the Project</h4>
+                        <p  className="paragraph">CryptoNews is a system output for System Architecture and Integration Course (TUP-T 2021)</p>
+                </div>
+            </div>
+                {/* Role */}
+            <div className="page-sec">
+                <h4 className='flex inline-flex text-xl font-semibold' >Role:</h4>
+                <p  className="flex inline-flex px-2">Full Stack Developer {"&"} UI/UX Designer</p>
+            </div>
+            {/* Technologies Used  */}
+        <div  className='grid grid-cols-1'>
+            <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
+                <div className='grid grid-cols-3 gap-3 '>
+                <div  className='tech-list-l'>
+                        <i class="fab fa-laravel"></i> Laravel
+                    </div>
+                    <div  className='tech-list'>
+                        
+                    <i class="fab fa-bootstrap"></i>  Bootstrap
+                    
+                    </div>
+                    <div  className='tech-list'>
+                        
+                    <i class="fas fa-chart-area"></i> Google Charts
+                    </div>
 
+                    <div  className='tech-list-l'>
+                        
+                    <i class="fas fa-database"></i> MySQL
+                        
+                        </div>
+                        <div  className='tech-list'>
+                            
+                        <i class="fas fa-network-wired"></i> jQuery 
+                        
+                        </div>
+                        <div  className='tech-list'>
+                            
+                        <i class="fas fa-network-wired"></i>  CryptoCompare News & CoinRanking API
+                        
+                        </div>
+                </div>
+            </div>
             
-//             <div className="slider">
-//                 <div className="slider-container">
-
-//                     <AnimatePresence initial={false} custom={direction}>
-//                         <motion.img
-//                             key={page}
-//                             src={images[imageIndex]}
-//                             custom={direction}
-//                             variants={variants}
-//                             initial="enter"
-//                             animate="center"
-//                             exit="exit"
-//                             transition={{
-//                             x: { type: "spring", stiffness: 300, damping: 30 },
-//                             opacity: { duration: 0.2 }
-//                             }}
-//                             drag="x"
-//                             dragConstraints={{ left: 0, right: 0 }}
-//                             dragElastic={1}
-//                             onDragEnd={(e, { offset, velocity }) => {
-//                             const swipe = swipePower(offset.x, velocity.x);
-                
-//                             if (swipe < -swipeConfidenceThreshold) {
-//                                 paginate(1);
-//                             } else if (swipe > swipeConfidenceThreshold) {
-//                                 paginate(-1);
-//                             }
-//                             }}
-//                         />
-//                     </AnimatePresence>
-//                     <div className="next" onClick={() => paginate(1)}>
-//                     <i className="fas fa-angle-right"></i>
-//                     </div>
-//                     <div className="prev" onClick={() => paginate(-1)}>
-//                     <i className="fas fa-angle-right"></i>
-//                     </div>
-//                 </div>
-//             </div>
-
-//             <div className='text-body-below'>
-//                 <h4>Technologies Used</h4>
-//             </div>
-//             <Row>
-//                 <Col>
-                    
-//                         <i class="fab fa-laravel"></i> Laravel
-                
-//                 </Col>
-//                 <Col>
-                    
-//                     <i class="fab fa-bootstrap"></i>  Bootstrap
-                
-//                 </Col>
-//                 <Col>
-                    
-//                     <i class="fas fa-chart-area"></i> Google Charts
-                
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col>
-                    
-//                     <i class="fas fa-database"></i> MySQL
-                
-//                 </Col>
-//                 <Col>
-                    
-//                     <i class="fas fa-network-wired"></i> jQuery 
-                
-//                 </Col>
-//                 <Col>
-                    
-//                     <i class="fas fa-network-wired"></i> CryptoCompare News & CoinRanking API
-                
-//                 </Col>
-//             </Row>
-//             <div className='text-body'>
-//                 <h5>Role:</h5>  <p>Full Stack Developer {"&"} UI/UX Designer</p>
-
-//             </div>
-            
-//         </div>
-//         </motion.div>
-//     </>
-//     );
-// }
-// export default CryptoNews;
+            <div className="gallery-img">   
+                {images.map((url) => (
+                    <img src={url} class="w-full" />
+                ))}
+            </div>
+        </div>
+        </motion.div>
+    </>
+    );
+}
+export default CryptoNews;

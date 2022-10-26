@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   @apply bg-white2;
   font-family: 'Mulish' , sans-serif;
@@ -50,4 +51,23 @@ nav{
 
 .item-list{
   @apply grid grid-cols-1 lg:grid-cols-4 lg:text-xl h-20 border-b-2 border-black2
+}
+
+.project-page{
+  @apply mx-40 border-l-2 border-r-2 border-black2
+}
+.page-sec{
+  @apply border-b-2 border-black2 py-2 px-4
+}
+.paragraph{
+  @apply w-3/4
+}
+.text-title{
+  @apply border-b-2 border-black2 p-3
+}
+.tech-list{
+  @apply border-l-2 border-t-2 border-black2 p-3
+}
+.tech-list-l{
+  @apply border-t-2 border-black2 p-3
 }

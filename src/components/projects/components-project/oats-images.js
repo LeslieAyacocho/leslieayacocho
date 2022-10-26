@@ -1,8 +1,8 @@
 import oats from '../../img/oats/oats.png'
-import two from '../../img/oats/2.PNG'
-import three from '../../img/oats/3.PNG'
-import four from '../../img/oats/4.PNG'
-import five from '../../img/oats/5.PNG'
+import two from '../../img/oats/OATS-stylesheet.png'
+import three from '../../img/oats/oats-mockup.png'
+import four from '../../img/oats/oats2.png'
+import five from '../../img/oats/oats3.png'
 
 export const images = [
     oats,

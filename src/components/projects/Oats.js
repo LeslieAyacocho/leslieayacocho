@@ -1,169 +1,110 @@
-// import Header from '../Header2';
-// import * as React from "react";
-// import { useState, useEffect } from "react";
-// import { useHistory } from 'react-router-dom';
-// import { motion, AnimatePresence } from "framer-motion";
-// import { wrap } from "popmotion";
-// import { images } from "./components-project/oats-images";
-// import {Col, Row} from 'react-bootstrap'
+import Header from '../Header2';
+import * as React from "react";
+import {  useEffect } from "react";
+import { useHistory } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { images } from "./components-project/oats-images";
 
-// const Net = () => {
-//     const history = useHistory()
+
+const Net = () => {
+    const history = useHistory()
     
-//     useEffect(() => {
-//         window.scrollTo(0, 0)
-//     }, [history])
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [history])
 
-//     const variants = {
-//         enter: (direction) => {
-//             return {
-//             x: direction > 0 ? 1000 : -1000,
-//             opacity: 0
-//             };
-//         },
-//         center: {
-//             zIndex: 1,
-//             x: 0,
-//             opacity: 1
-//         },
-//         exit: (direction) => {
-//             return {
-//             zIndex: 0,
-//             x: direction < 0 ? 1000 : -1000,
-//             opacity: 0
-//             };
-//         }
-//         };
-
-//     const swipeConfidenceThreshold = 10000;
-//     const swipePower = (offset, velocity) => {
-//     return Math.abs(offset) * velocity;
-//     };
-
-//     const [[page, direction], setPage] = useState([0, 0]);
-
-//     const imageIndex = wrap(0, images.length, page);
-
-//     const paginate = (newDirection) => {
-//         setPage([page + newDirection, newDirection]);
-//     }
-
-//     return (  
+    return (  
         
-//         <>
-//         <motion.div 
-//         initial={{width: 0}}
-//         animate={{width: "100%"}}
-//         exit={{x: "100%"}}
-//         >
-//         <Header />
-//         <div className="project-page">
+        <>
+        <motion.div 
+        initial={{width: 0}}
+        animate={{width: "100%"}}
+        exit={{x: "100%"}}
+        >
+        <Header />
+        <div className="project-page">
             
-//             <div className='text-body '>
-//                 <h1>Online Archiving Thesis System (OATS)</h1>
-//                 <p>The Online Archiving Thesis System (OATS) is a website that has a catalog of all the theses of graduated students from the Technological University of the Philippines Taguig (TUP-Taguig). </p>
-//                 <p>This system is an output for IT Project Capstone 2</p>
-//                 <p><i>2021 &mdash; 2022</i></p>
-//                 <hr />
-//                 <a href="https://github.com/kynahgalicia/oatsweb"><i class="fab fa-github"></i> : https://github.com/kynahgalicia/oatsweb</a><br />
-//                 <a href="https://oats-tupt.me"> <i class="fas fa-laptop"></i> : https://oats-tupt.me</a>
-//             </div>
+            <div className='text-body'>
+                <h1 className='text-title text-4xl font-bold mb-3'>Online Archiving Thesis System (OATS) <em>2021 &mdash; 2022</em></h1>
 
+                <div className='page-sec'>
+                        <h4 className='text-xl font-semibold'>About the Project</h4>
+                        <p  className="paragraph">The Online Archiving Thesis System (OATS) is a website that has a catalog of all the theses of graduated students from the Technological University of the Philippines Taguig (TUP-Taguig). 
+                        This system is an output for IT Project Capstone 2.</p>
+                </div>
+                <div className='page-sec'>
+                        <h4 className='text-xl font-semibold'>Objectives</h4>
+                    
+                    <ul className='ml-4 list-disc paragraph'>
+                        <li>
+                            Align visual elements with a modern design that has a minimal and clean look for efficient document browsing.
+                        </li>
+                        <li>
+                            Develop a digital library for researchers inside and outside of the Technological University of the Philippines - Taguig Campus.
+                        </li>
+                        <li>
+                            Help the researchers in finding local literature for their research through digitizing the thesis papers, and a citation feature available in APA, IEEE, and MLA using built-in citation generators of the website.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className="page-sec">
+                <h4 className='flex inline-flex text-xl font-semibold' >Role:</h4>
+                <p  className="flex inline-flex px-2">Full Stack Developer {"&"} UI/UX Designer</p>
+            </div>
+
+        <div  className='grid grid-cols-1'>
+            <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
+                <div className='grid grid-cols-4 gap-3 '>
+                <div  className='tech-list-l'>
+                        <i class="fas fa-database "></i> MongoDB
+                    </div>
+                    <div  className='tech-list'>
+                        
+                    <i class="fab fa-node-js"></i>  Express
+                    
+                    </div>
+                    <div  className='tech-list'>
+                        
+                    <i class="fab fa-react"></i> React JS
+                    </div>
+                    <div  className='tech-list'>
+                        
+                    <i class="fab fa-node"></i> Node.js
+                    
+                    </div>
+
+                    <div  className='tech-list-l'>
+                        
+                        <i class="fas fa-chart-area"></i> Chart.js
+                        
+                        </div>
+                        <div  className='tech-list'>
+                            
+                        <i class="fas fa-file-pdf"></i> pdf-viewer-reactjs
+                        
+                        </div>
+                        <div  className='tech-list'>
+                            
+                        <i class="fas fa-cube"></i> Tesseract.js 
+                        
+                        </div>
+                        <div  className='tech-list'>
+                            
+                        <i class="fab fa-bootstrap"></i> Bootstrap
+                        
+                        </div>
+                </div>
+            </div>
             
-//             <div className="slider">
-//                 <div className="slider-container">
-
-//                     <AnimatePresence initial={false} custom={direction}>
-//                         <motion.img
-//                             key={page}
-//                             src={images[imageIndex]}
-//                             custom={direction}
-//                             variants={variants}
-//                             initial="enter"
-//                             animate="center"
-//                             exit="exit"
-//                             transition={{
-//                             x: { type: "spring", stiffness: 300, damping: 30 },
-//                             opacity: { duration: 0.2 }
-//                             }}
-//                             drag="x"
-//                             dragConstraints={{ left: 0, right: 0 }}
-//                             dragElastic={1}
-//                             onDragEnd={(e, { offset, velocity }) => {
-//                             const swipe = swipePower(offset.x, velocity.x);
-                
-//                             if (swipe < -swipeConfidenceThreshold) {
-//                                 paginate(1);
-//                             } else if (swipe > swipeConfidenceThreshold) {
-//                                 paginate(-1);
-//                             }
-//                             }}
-//                         />
-//                     </AnimatePresence>
-//                     <div className="next" onClick={() => paginate(1)}>
-//                     <i className="fas fa-angle-right"></i>
-//                     </div>
-//                     <div className="prev" onClick={() => paginate(-1)}>
-//                     <i className="fas fa-angle-right"></i>
-//                     </div>
-//                 </div>
-//             </div>
-
-//             <div className='text-body-below'>
-//                 <h4>Technologies Used</h4>
-//             </div>
-//             <Row>
-//                 <Col>
-                    
-//                     <i class="fas fa-database"></i> MongoDB
-                
-                
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fab fa-node-js"></i>  Express
-                
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fab fa-react"></i> React JS
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fab fa-node"></i> Node.js
-                
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col>
-                    
-//                 <i class="fas fa-chart-area"></i> Chart.js
-                
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fas fa-file-pdf"></i> pdf-viewer-reactjs
-                
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fas fa-cube"></i> Tesseract.js 
-                
-//                 </Col>
-//                 <Col>
-                    
-//                 <i class="fab fa-bootstrap"></i> Bootstrap
-                
-//                 </Col>
-//             </Row>
-//             <div className='text-body'>
-//                 <h5>Role:</h5>  <p>Full Stack Developer {"&"} UI/UX Designer</p>
-
-//             </div>
-            
-//         </div>
-//         </motion.div>
-//     </>
-//     );
-// }
-// export default Net;
+            <div className="gallery-img">   
+                {images.map((url) => (
+                    <img src={url} class="w-full" />
+                ))}
+            </div>
+        </div>
+        </motion.div>
+    </>
+    );
+}
+export default Net;

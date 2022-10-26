@@ -1,5 +1,6 @@
 import { Navbar } from 'flowbite-react';
-import {Link} from 'react-scroll'
+import {Link as Link1} from 'react-scroll'
+import {Link as Link2} from 'react-router-dom'
 import header from './img/header.png'
 const Header = () => {
     return ( 
@@ -16,7 +17,11 @@ const Header = () => {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 
-                    <Link
+                    <Link2                        to="/about"
+                        className='header-text'
+                    >
+                    ABOUT                    </Link2>
+                    <Link1
                         activeClass="active"
                         to="contact"
                         spy={true}
@@ -26,8 +31,8 @@ const Header = () => {
                         className='header-text'
                     >
                         CONTACT
-                    </Link>
-                    <Link
+                    </Link1>
+                    <Link1
                         activeClass="active"
                         to="ui-designs"
                         spy={true}
@@ -37,8 +42,8 @@ const Header = () => {
                         className='header-text'
                     >
                         UI DESIGNS
-                    </Link>
-                    <Link
+                    </Link1>
+                    <Link1
                         activeClass="active"
                         to="web-developments"
                         spy={true}
@@ -48,7 +53,7 @@ const Header = () => {
                         className='header-text'
                     >
                         WEB DEVELOPMENTS
-                    </Link>
+                    </Link1>
             </Navbar.Collapse>
             </Navbar>
         </>  
@@ -59,7 +64,7 @@ const Header = () => {
     //         <Navbar.Toggle aria-controls="basic-navbar-nav" />
     //         <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
     //         <Nav>
-    //         <Link
+    //         <Link1
     //                     activeClass="active"
     //                     to="contact"
     //                     spy={true}
@@ -69,8 +74,8 @@ const Header = () => {
     //                     className='header-text'
     //                 >
     //                     CONTACT
-    //                 </Link>
-    //                 <Link
+    //                 </Link1>
+    //                 <Link1
     //                     activeClass="active"
     //                     to="ui-designs"
     //                     spy={true}
@@ -80,8 +85,8 @@ const Header = () => {
     //                     className='header-text'
     //                 >
     //                     UI DESIGNS
-    //                 </Link>
-    //                 <Link
+    //                 </Link1>
+    //                 <Link1
     //                     activeClass="active"
     //                     to="web-developments"
     //                     spy={true}
@@ -91,7 +96,7 @@ const Header = () => {
     //                     className='header-text'
     //                 >
     //                     WEB DEVELOPMENTS
-    //                 </Link>
+    //                 </Link1>
                 
     //         </Nav>
     //         </Navbar.Collapse>
