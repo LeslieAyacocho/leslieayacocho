@@ -7,20 +7,22 @@ const Header = () => {
         <>
             <Navbar
             fluid={true}
-            className="bg-white2 h-20 "
+            className="bg-white2 h-15 lg:h-20 "
             >
                 <img
                 src={header}
-                className=" h-16 sm:h-9 "
+                className=" h-9 lg:h-16"
                 alt="Leslie Logo"
                 />
             <Navbar.Toggle />
             <Navbar.Collapse>
                 
-                    <Link2                        to="/about"
+                    <Link2 
+                        to="/about"
                         className='header-text'
                     >
-                    ABOUT                    </Link2>
+                    ABOUT                    
+                    </Link2>
                     <Link1
                         activeClass="active"
                         to="contact"

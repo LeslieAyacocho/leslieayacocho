@@ -19,7 +19,7 @@ nav{
   @apply py-0 bg-white2 justify-center border-b-2 border-black2 !important
 }
 .header-text{
-  @apply flex items-center justify-center h-20 pl-6 border-b-2 md:border-l-2 lg:border-l-2 border-black cursor-pointer
+  @apply flex items-center justify-center h-20 pl-6 border-b-2 md:border-b-0 md:border-l-2 lg:border-l-2 lg:border-b-0 border-black cursor-pointer bg-white2
 }
 
 .name{
@@ -40,7 +40,7 @@ nav{
 }
 
 .space{
-  @apply block h-10 border-b-2 border-black2
+  @apply block h-10 border-b-2 border-black2 bg-blackTrans
 }
 
 .item-image{
@@ -54,7 +54,7 @@ nav{
 }
 
 .project-page{
-  @apply mx-40 border-l-2 border-r-2 border-black2
+  @apply md:mx-40 lg:mx-40 border-l-2 border-r-2 border-black2
 }
 .page-sec{
   @apply border-b-2 border-black2 py-2 px-4

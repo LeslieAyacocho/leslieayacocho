@@ -26,7 +26,7 @@ const Tamms = () => {
             
             <div className='text-body'>
                 {/* Title Year */}
-                <h1 className='text-title text-4xl font-bold mb-3'>TOURISM ANALYTICS FOR METRO MANILA SYSTEM (TAMMS) <em>March 2020</em></h1>
+                <h1 className='text-title text-2xl md:text-4xl lg:text-4xl font-bold mb-3'>TOURISM ANALYTICS FOR METRO MANILA SYSTEM (TAMMS) <em>March 2020</em></h1>
 
                 {/* About Project */}
                 <div className='page-sec'>
@@ -42,9 +42,9 @@ const Tamms = () => {
             {/* Technologies Used  */}
         <div  className='grid grid-cols-1'>
             <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
-                <div className='grid grid-cols-4 gap-3 '>
+            <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-3 '>
                 <div  className='tech-list-l'>
-                <i class="fab fa-laravel"></i> Codeigniter
+                <i class="fas fa-code"></i> Codeigniter
                     </div>
                     <div  className='tech-list'>
                         

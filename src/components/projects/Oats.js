@@ -25,7 +25,7 @@ const Net = () => {
         <div className="project-page">
             
             <div className='text-body'>
-                <h1 className='text-title text-4xl font-bold mb-3'>Online Archiving Thesis System (OATS) <em>2021 &mdash; 2022</em></h1>
+                <h1 className='text-title text-2xl md:text-4xl lg:text-4xl font-bold mb-3'>Online Archiving Thesis System (OATS) <em>2021 &mdash; 2022</em></h1>
 
                 <div className='page-sec'>
                         <h4 className='text-xl font-semibold'>About the Project</h4>
@@ -55,7 +55,7 @@ const Net = () => {
 
         <div  className='grid grid-cols-1'>
             <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
-                <div className='grid grid-cols-4 gap-3 '>
+                <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-3 '>
                 <div  className='tech-list-l'>
                         <i class="fas fa-database "></i> MongoDB
                     </div>

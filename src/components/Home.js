@@ -20,7 +20,7 @@ import { motion } from "framer-motion"
 const Home = () => {
     return (
         <>
-         <motion.div 
+        <motion.div 
         // initial={{width: 0}}
         animate={{width: "100%"}}
         exit={{x: "100%"}}
@@ -31,7 +31,7 @@ const Home = () => {
 
         <div class="name flex items-center justify-center">
             <span>
-                <h1 className='text-5xl flex items-center justify-center'>LESLIE AYACOCHO</h1>
+                <h1 className='text-4xl md:text-5xl g:text-5xl flex items-center justify-center'>LESLIE AYACOCHO</h1>
                 <p className='flex items-center justify-center'>Web Developer & Designer</p>
             </span>
         </div>
@@ -73,7 +73,6 @@ const Home = () => {
                 <Cards image={GivingTuesday} title={'GivingTuesday'} year={'2021'} tech={'Figma'} link={'/design/giving-tuesday'}/>
                 <Cards image={MagisSolutions} title={'MagisSolutions'} year={'2021'} tech={'Figma'} link={'/design/magis-solutions'}/>
             </div>
-               
             </div>
 
             {/* <div className='space-break'></div>

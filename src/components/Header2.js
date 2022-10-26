@@ -5,9 +5,9 @@ const Header = () => {
     return (
         <Navbar
         fluid={true}
-        className="bg-white2 h-20 "
+        className="bg-white2 h-15 lg:h-20 "
         >
-            <Link to="/"><img src={header} className=" h-16 sm:h-9 " alt="Leslie Logo"/></Link>
+            <Link to="/"><img src={header} className=" h-9 lg:h-16" alt="Leslie Logo"/></Link>
         <Navbar.Toggle />
         <Navbar.Collapse>
                 <Link

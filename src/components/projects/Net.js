@@ -26,7 +26,7 @@ const Net = () => {
             
             <div className='text-body'>
                 {/* Title Year */}
-                <h1 className='text-title text-4xl font-bold mb-3'>Natural Event Tracker (NET) <em>2021</em></h1>
+                <h1 className='text-title text-2xl md:text-4xl lg:text-4xl font-bold mb-3'>Natural Event Tracker (NET) <em>April 2021</em></h1>
 
                 {/* About Project */}
                 <div className='page-sec'>
@@ -42,8 +42,8 @@ const Net = () => {
             {/* Technologies Used  */}
         <div  className='grid grid-cols-1'>
             <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
-                <div className='grid grid-cols-3 gap-3 '>
-                <div  className='tech-list-l'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3 '>
+                    <div  className='tech-list-l'>
                         <i class="fab fa-laravel"></i> Laravel
                     </div>
                     <div  className='tech-list'>
