@@ -39,6 +39,9 @@ const CryptoNews = () => {
                 <h4 className='flex inline-flex text-xl font-semibold' >Role:</h4>
                 <p  className="flex inline-flex px-2">Full Stack Developer {"&"} UI/UX Designer</p>
             </div>
+            <div className="page-sec">
+                <a href="https://github.com/LeslieAyacocho/API-cryptosnews" className='underline'><i class="fab fa-github mx-5 text-xl">:</i>Github Sourcecode</a>
+                </div>
             {/* Technologies Used  */}
         <div  className='grid grid-cols-1'>
             <h4 className='text-xl font-semibold p-4' >Technologies Used</h4>
