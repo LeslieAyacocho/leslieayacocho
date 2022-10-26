@@ -19,7 +19,6 @@ const Header = () => {
                 <Link
                     className='header-text'
                 >
-                    WORK
                     </Link>
         </Navbar.Collapse>
         </Navbar>

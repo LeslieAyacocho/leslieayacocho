@@ -17,22 +17,27 @@ const Header = () => {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 
-                    <Link2 
-                        to="/about"
-                        className='header-text'
-                    >
-                    ABOUT                    
-                    </Link2>
                     <Link1
                         activeClass="active"
-                        to="contact"
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={100}
                         className='header-text'
                     >
-                        CONTACT
+                    ABOUT                    
+                    </Link1>
+                    <Link1
+                        activeClass="active"
+                        to="web-developments"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={100}
+                        className='header-text'
+                    >
+                        WEB DEVELOPMENTS
                     </Link1>
                     <Link1
                         activeClass="active"
@@ -47,15 +52,16 @@ const Header = () => {
                     </Link1>
                     <Link1
                         activeClass="active"
-                        to="web-developments"
+                        to="contact"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={100}
                         className='header-text'
                     >
-                        WEB DEVELOPMENTS
+                        CONTACT
                     </Link1>
+
             </Navbar.Collapse>
             </Navbar>
         </>  

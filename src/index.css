@@ -30,6 +30,10 @@ nav{
   @apply border-b-2 border-black2
 }
 
+.about{
+  @apply h-90 border-b-2 border-black2
+}
+
 .title-section-top{
   @apply flex items-center justify-center p-3 lg:text-2xl 
 }

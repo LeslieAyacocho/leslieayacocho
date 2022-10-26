@@ -2,6 +2,7 @@ import Header from '../Header2';
 import * as React from "react";
 import { useEffect } from "react";
 import image from '../img/ui designs/baliuag.png'
+import image2 from '../img/baliuag-stylesheet.png'
 import { motion } from "framer-motion";
 
 const Baliuag = () => {
@@ -34,6 +35,7 @@ const Baliuag = () => {
             </div>
 
             <div className="web-img">
+                <img src={image2} alt="Homepage" className='w-50'/>
                 <img src={image} alt="Homepage" className='w-50'/>
             </div>
         </div>

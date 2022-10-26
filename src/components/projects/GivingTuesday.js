@@ -2,6 +2,7 @@ import Header from '../Header2';
 import * as React from "react";
 import { useEffect } from "react";
 import image from '../img/ui designs/Giving.png'
+import image2 from '../img/giving-stylesheet.png'
 import { motion } from "framer-motion";
 const GivingTuesday = () => {
 
@@ -21,9 +22,12 @@ const GivingTuesday = () => {
             <div className='text-body '>
             <h1 className='text-title text-2xl md:text-4xl lg:text-4xl font-bold mb-3'>Giving Tuesday <em>July 2021</em></h1>
             <div className='page-sec'>
-                <h4 className='text-xl font-semibold'>About the Project</h4>
+                <h4 className='text-xl font-semibold mb-2'>About the Project</h4>
                 <p className="paragraph"> 
-                The output required is the Home page only. <em>(Design was not picked)</em> </p>
+                GivingTuesday is a global
+generosity movement unleashing the power of radical generosity.
+GivingTuesday was created in 2012 as a simple idea: a day that encourages
+people to do good.</p>
                 <p></p>
             </div>
 
@@ -33,6 +37,7 @@ const GivingTuesday = () => {
             </div>
 
             <div className="web-img">
+                <img src={image2} alt="Homepage" className='w-50'/>
                 <img src={image} alt="Homepage" className='w-50'/>
             </div>
 

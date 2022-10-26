@@ -12,6 +12,7 @@ import Oats from './components/projects/Oats'
 import Baliuag from './components/projects/Baliuag';
 import GivingTuesday from './components/projects/GivingTuesday';
 import MagisSolutions from './components/projects/MagisSolutions';
+import GK from './components/projects/GK';
 function App() {
   return (
     <Router basename="/leslieayacocho/">
@@ -30,6 +31,7 @@ function App() {
         <Route path="/design/baliuag-university" component={Baliuag} exact/>
         <Route path="/design/giving-tuesday" component={GivingTuesday} exact/>
         <Route path="/design/magis-solutions" component={MagisSolutions} exact/>
+        <Route path="/design/gk" component={GK} exact/>
       </AnimatePresence>
       </Switch>
 
