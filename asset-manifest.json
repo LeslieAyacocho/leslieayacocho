@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/leslieayacocho/static/css/main.f0ee02b7.css",
-    "main.js": "/leslieayacocho/static/js/main.a0a670d9.js",
+    "main.css": "/leslieayacocho/static/css/main.a0290970.css",
+    "main.js": "/leslieayacocho/static/js/main.0c8b824a.js",
     "static/media/magis.png": "/leslieayacocho/static/media/magis.b89bef9056caf370dbb1.png",
     "static/media/baliuag.png": "/leslieayacocho/static/media/baliuag.a76fba02251733ffbd9e.png",
     "static/media/MaigsSolutions.png": "/leslieayacocho/static/media/MaigsSolutions.69a411877c703c008cc6.png",
     "static/media/GivingTuesday.png": "/leslieayacocho/static/media/GivingTuesday.e88fd4a36bed26caabe2.png",
+    "static/media/GK.png": "/leslieayacocho/static/media/GK.32909f6d0174e02c0b5b.png",
     "static/media/Baliuag.png": "/leslieayacocho/static/media/Baliuag.f3e7e2c57b831a1326d7.png",
     "static/media/Axie.png": "/leslieayacocho/static/media/Axie.1bbca4141e03effa4108.png",
     "static/media/NET.png": "/leslieayacocho/static/media/NET.af9ca2625e2ecdfce363.png",
@@ -14,6 +15,9 @@
     "static/media/cryptonews.png": "/leslieayacocho/static/media/cryptonews.147c6af51dded7fdaa5d.png",
     "static/media/Giving.png": "/leslieayacocho/static/media/Giving.eeae52a70c6daf4e2d7a.png",
     "static/media/oats-mockup.png": "/leslieayacocho/static/media/oats-mockup.b12d544b0fadc43f32a2.png",
+    "static/media/baliuag-stylesheet.png": "/leslieayacocho/static/media/baliuag-stylesheet.a2c8750f91e35d305086.png",
+    "static/media/GK-stylesheet.png": "/leslieayacocho/static/media/GK-stylesheet.e12d2b310da11f580748.png",
+    "static/media/giving-stylesheet.png": "/leslieayacocho/static/media/giving-stylesheet.d8bea9fa7ec0f154c89a.png",
     "static/media/net2.png": "/leslieayacocho/static/media/net2.b85db7977ac925159e43.png",
     "static/media/crypto3.png": "/leslieayacocho/static/media/crypto3.3c04c5199fdf5219ae1d.png",
     "static/media/net-stylesheet.png": "/leslieayacocho/static/media/net-stylesheet.3d8f89477a8c73599b34.png",
@@ -24,17 +28,18 @@
     "static/media/tamms3.png": "/leslieayacocho/static/media/tamms3.e629dcfdf97f16f20a21.png",
     "static/media/oats3.png": "/leslieayacocho/static/media/oats3.f0a94c754d265886a3a6.png",
     "static/media/oats2.png": "/leslieayacocho/static/media/oats2.6d14cf6915cdb7ae7f64.png",
+    "static/media/magis-stylesheet.png": "/leslieayacocho/static/media/magis-stylesheet.6076837d8dac75b706ad.png",
     "static/media/tamms1.png": "/leslieayacocho/static/media/tamms1.23d864acf945dfaa043c.png",
     "static/media/tamms2.png": "/leslieayacocho/static/media/tamms2.1eafa9a1dd3358c41f47.png",
     "static/media/net1.png": "/leslieayacocho/static/media/net1.f92c30f9aa25e26b1cfa.png",
     "static/media/crypto2.png": "/leslieayacocho/static/media/crypto2.738259f042abfba77c60.png",
     "static/media/crypto1.png": "/leslieayacocho/static/media/crypto1.918bba77e628793c9461.png",
     "index.html": "/leslieayacocho/index.html",
-    "main.f0ee02b7.css.map": "/leslieayacocho/static/css/main.f0ee02b7.css.map",
-    "main.a0a670d9.js.map": "/leslieayacocho/static/js/main.a0a670d9.js.map"
+    "main.a0290970.css.map": "/leslieayacocho/static/css/main.a0290970.css.map",
+    "main.0c8b824a.js.map": "/leslieayacocho/static/js/main.0c8b824a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0ee02b7.css",
-    "static/js/main.a0a670d9.js"
+    "static/css/main.a0290970.css",
+    "static/js/main.0c8b824a.js"
   ]
 }
