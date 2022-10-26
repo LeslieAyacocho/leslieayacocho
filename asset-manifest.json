@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/leslieayacocho/static/css/main.6e73613b.css",
-    "main.js": "/leslieayacocho/static/js/main.27e5c76c.js",
+    "main.css": "/leslieayacocho/static/css/main.f0ee02b7.css",
+    "main.js": "/leslieayacocho/static/js/main.a0a670d9.js",
+    "static/media/magis.png": "/leslieayacocho/static/media/magis.b89bef9056caf370dbb1.png",
+    "static/media/baliuag.png": "/leslieayacocho/static/media/baliuag.a76fba02251733ffbd9e.png",
     "static/media/MaigsSolutions.png": "/leslieayacocho/static/media/MaigsSolutions.69a411877c703c008cc6.png",
     "static/media/GivingTuesday.png": "/leslieayacocho/static/media/GivingTuesday.e88fd4a36bed26caabe2.png",
     "static/media/Baliuag.png": "/leslieayacocho/static/media/Baliuag.f3e7e2c57b831a1326d7.png",
@@ -10,6 +12,7 @@
     "static/media/TAMMS.png": "/leslieayacocho/static/media/TAMMS.775af368fed22549a183.png",
     "static/media/oats.png": "/leslieayacocho/static/media/oats.fdc269028503f8029df6.png",
     "static/media/cryptonews.png": "/leslieayacocho/static/media/cryptonews.147c6af51dded7fdaa5d.png",
+    "static/media/Giving.png": "/leslieayacocho/static/media/Giving.eeae52a70c6daf4e2d7a.png",
     "static/media/oats-mockup.png": "/leslieayacocho/static/media/oats-mockup.b12d544b0fadc43f32a2.png",
     "static/media/net2.png": "/leslieayacocho/static/media/net2.b85db7977ac925159e43.png",
     "static/media/crypto3.png": "/leslieayacocho/static/media/crypto3.3c04c5199fdf5219ae1d.png",
@@ -27,11 +30,11 @@
     "static/media/crypto2.png": "/leslieayacocho/static/media/crypto2.738259f042abfba77c60.png",
     "static/media/crypto1.png": "/leslieayacocho/static/media/crypto1.918bba77e628793c9461.png",
     "index.html": "/leslieayacocho/index.html",
-    "main.6e73613b.css.map": "/leslieayacocho/static/css/main.6e73613b.css.map",
-    "main.27e5c76c.js.map": "/leslieayacocho/static/js/main.27e5c76c.js.map"
+    "main.f0ee02b7.css.map": "/leslieayacocho/static/css/main.f0ee02b7.css.map",
+    "main.a0a670d9.js.map": "/leslieayacocho/static/js/main.a0a670d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e73613b.css",
-    "static/js/main.27e5c76c.js"
+    "static/css/main.f0ee02b7.css",
+    "static/js/main.a0a670d9.js"
   ]
 }
