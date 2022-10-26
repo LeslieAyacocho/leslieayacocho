@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leslieayacocho/static/css/main.7bb21863.css",
-    "main.js": "/leslieayacocho/static/js/main.f820d36c.js",
+    "main.css": "/leslieayacocho/static/css/main.6e73613b.css",
+    "main.js": "/leslieayacocho/static/js/main.27e5c76c.js",
     "static/media/MaigsSolutions.png": "/leslieayacocho/static/media/MaigsSolutions.69a411877c703c008cc6.png",
     "static/media/GivingTuesday.png": "/leslieayacocho/static/media/GivingTuesday.e88fd4a36bed26caabe2.png",
     "static/media/Baliuag.png": "/leslieayacocho/static/media/Baliuag.f3e7e2c57b831a1326d7.png",
@@ -10,12 +10,28 @@
     "static/media/TAMMS.png": "/leslieayacocho/static/media/TAMMS.775af368fed22549a183.png",
     "static/media/oats.png": "/leslieayacocho/static/media/oats.fdc269028503f8029df6.png",
     "static/media/cryptonews.png": "/leslieayacocho/static/media/cryptonews.147c6af51dded7fdaa5d.png",
+    "static/media/oats-mockup.png": "/leslieayacocho/static/media/oats-mockup.b12d544b0fadc43f32a2.png",
+    "static/media/net2.png": "/leslieayacocho/static/media/net2.b85db7977ac925159e43.png",
+    "static/media/crypto3.png": "/leslieayacocho/static/media/crypto3.3c04c5199fdf5219ae1d.png",
+    "static/media/net-stylesheet.png": "/leslieayacocho/static/media/net-stylesheet.3d8f89477a8c73599b34.png",
+    "static/media/net3.png": "/leslieayacocho/static/media/net3.57d364f90b4f4b4ab6fd.png",
+    "static/media/crypto-stylesheet.png": "/leslieayacocho/static/media/crypto-stylesheet.4a3e56a01ad022e1e575.png",
+    "static/media/tamms-stylesheet.png": "/leslieayacocho/static/media/tamms-stylesheet.14e86635a8c07a37c3ed.png",
+    "static/media/OATS-stylesheet.png": "/leslieayacocho/static/media/OATS-stylesheet.1e78bcf5c48953e5bfb0.png",
+    "static/media/tamms3.png": "/leslieayacocho/static/media/tamms3.e629dcfdf97f16f20a21.png",
+    "static/media/oats3.png": "/leslieayacocho/static/media/oats3.f0a94c754d265886a3a6.png",
+    "static/media/oats2.png": "/leslieayacocho/static/media/oats2.6d14cf6915cdb7ae7f64.png",
+    "static/media/tamms1.png": "/leslieayacocho/static/media/tamms1.23d864acf945dfaa043c.png",
+    "static/media/tamms2.png": "/leslieayacocho/static/media/tamms2.1eafa9a1dd3358c41f47.png",
+    "static/media/net1.png": "/leslieayacocho/static/media/net1.f92c30f9aa25e26b1cfa.png",
+    "static/media/crypto2.png": "/leslieayacocho/static/media/crypto2.738259f042abfba77c60.png",
+    "static/media/crypto1.png": "/leslieayacocho/static/media/crypto1.918bba77e628793c9461.png",
     "index.html": "/leslieayacocho/index.html",
-    "main.7bb21863.css.map": "/leslieayacocho/static/css/main.7bb21863.css.map",
-    "main.f820d36c.js.map": "/leslieayacocho/static/js/main.f820d36c.js.map"
+    "main.6e73613b.css.map": "/leslieayacocho/static/css/main.6e73613b.css.map",
+    "main.27e5c76c.js.map": "/leslieayacocho/static/js/main.27e5c76c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb21863.css",
-    "static/js/main.f820d36c.js"
+    "static/css/main.6e73613b.css",
+    "static/js/main.27e5c76c.js"
   ]
 }
