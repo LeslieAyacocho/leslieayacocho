@@ -48,7 +48,7 @@ const Header = () => {
                         duration={100}
                         className='header-text'
                     >
-                        UI DESIGNS
+                        UI/UX DESIGNS
                     </Link1>
                     <Link1
                         activeClass="active"

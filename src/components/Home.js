@@ -10,6 +10,7 @@ import ranking from './img/crypto/cryptonews.png'
 import axie from './img/axie/Axie.png'
 import tamms from './img/tamms/TAMMS.png'
 import gk from './img/GK.png'
+import cliqq from './img/cliqq/main.png'
 import net from './img/net/NET.png'
 import Header from './Header.js';
 import Baliuag from './img/Baliuag.png' 
@@ -42,7 +43,7 @@ const Home = () => {
         <span>
             <Link2
                 activeClass="active"
-                    to="web-developments"
+                    to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -79,9 +80,10 @@ const Home = () => {
 
             <div className='space'></div>
             <div id="ui-designs" className='text-center'>
-            <h4 className='title-section-top'> UI DESIGNS</h4>        
+            <h4 className='title-section-top'> UI/UX DESIGNS</h4>        
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-0'>
-                <Cards image={gk} title={'GK- USA'} year={'2022'} tech={'Figma'} link={'/design/gk'}/>
+                <Cards image={cliqq} title={'CLiQQ - Redesign'} year={'2022'} tech={'Figma'} link={'/design/cliqq'}/>
+                {/* <Cards image={gk} title={'GK- USA'} year={'2022'} tech={'Figma'} link={'/design/gk'}/> */}
                 <Cards image={Baliuag} title={'Baliuag University'} year={'2022'} tech={'Figma'} link={'/design/baliuag-university'}/>
                 <Cards image={GivingTuesday} title={'GivingTuesday'} year={'2021'} tech={'Figma'} link={'/design/giving-tuesday'}/>
                 <Cards image={MagisSolutions} title={'MagisSolutions'} year={'2021'} tech={'Figma'} link={'/design/magis-solutions'}/>
@@ -91,8 +93,8 @@ const Home = () => {
             <div className="page-sec">
             <h4 className='title-section-top'> CONTACT </h4>
             </div>
-            <div id="contact" className="grid grid-cols-4">
-                <div className='p-3'><i class="fas fa-envelope"></i> Email: lesliejayne.ayacocho@gmail.com</div>
+            <div id="contact" className="grid grid-cols-1 lg:grid-cols-4">
+                <div className='b-left p-3'><i class="fas fa-envelope"></i> Email: lesliejayne.ayacocho@gmail.com</div>
                 <div className='b-left p-3'><i class="fas fa-phone-alt"></i> Contact no: +639669213916 </div>
                 <div className='b-left p-3'><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/leslie-ayacocho">linkedin.com/in/leslie-ayacocho</a> </div>
                 <div className='b-left p-3'><i class="fab fa-github"></i> Github: <a href="https://github.com/LeslieAyacocho/">github.com/LeslieAyacocho/</a> </div>
