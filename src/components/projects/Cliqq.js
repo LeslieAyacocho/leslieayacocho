@@ -31,7 +31,7 @@ const Cliqq = () => {
                 {/* About Project */}
                 <div className='page-sec'>
                         <h4 className='text-xl font-semibold'>About the Project</h4>
-                        <p  className="paragraph">CLiQQ Rewards is 7-Eleven's loyalty program. Customers Earn points by presenting a loyalty barcode every time the buy at 7-Eleven. </p>
+                        <p  className="paragraph">CLiQQ Rewards is 7-Eleven's loyalty program. Customers Earn points by presenting a loyalty barcode every time they buy at 7-Eleven. </p>
                         <p  className="paragraph"><em><strong>Disclaimer:</strong> This is not affiliated with Cliqq by 7-Eleven in any way. This purpose is only to enhance my design skills in mobile design by redesigning the current mobile application.</em></p>
                 </div>
 
