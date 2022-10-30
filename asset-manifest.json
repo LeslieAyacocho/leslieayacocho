@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/leslieayacocho/static/css/main.a0290970.css",
-    "main.js": "/leslieayacocho/static/js/main.19128e28.js",
+    "main.js": "/leslieayacocho/static/js/main.ba60db1a.js",
     "static/media/magis.png": "/leslieayacocho/static/media/magis.b89bef9056caf370dbb1.png",
     "static/media/baliuag.png": "/leslieayacocho/static/media/baliuag.a76fba02251733ffbd9e.png",
     "static/media/MaigsSolutions.png": "/leslieayacocho/static/media/MaigsSolutions.69a411877c703c008cc6.png",
+    "static/media/main.png": "/leslieayacocho/static/media/main.7c06074887c03fd500e0.png",
     "static/media/GivingTuesday.png": "/leslieayacocho/static/media/GivingTuesday.e88fd4a36bed26caabe2.png",
     "static/media/GK.png": "/leslieayacocho/static/media/GK.32909f6d0174e02c0b5b.png",
     "static/media/Baliuag.png": "/leslieayacocho/static/media/Baliuag.f3e7e2c57b831a1326d7.png",
@@ -30,16 +31,21 @@
     "static/media/oats2.png": "/leslieayacocho/static/media/oats2.6d14cf6915cdb7ae7f64.png",
     "static/media/magis-stylesheet.png": "/leslieayacocho/static/media/magis-stylesheet.6076837d8dac75b706ad.png",
     "static/media/tamms1.png": "/leslieayacocho/static/media/tamms1.23d864acf945dfaa043c.png",
+    "static/media/cliqq1.png": "/leslieayacocho/static/media/cliqq1.8fff8503c24b3068815d.png",
     "static/media/tamms2.png": "/leslieayacocho/static/media/tamms2.1eafa9a1dd3358c41f47.png",
     "static/media/net1.png": "/leslieayacocho/static/media/net1.f92c30f9aa25e26b1cfa.png",
     "static/media/crypto2.png": "/leslieayacocho/static/media/crypto2.738259f042abfba77c60.png",
     "static/media/crypto1.png": "/leslieayacocho/static/media/crypto1.918bba77e628793c9461.png",
+    "static/media/cliqq4.png": "/leslieayacocho/static/media/cliqq4.15182c4f98ab2995b636.png",
+    "static/media/cliqq3.png": "/leslieayacocho/static/media/cliqq3.50cfcf1fcf7b766e5437.png",
+    "static/media/cliqq2.png": "/leslieayacocho/static/media/cliqq2.1e29c726662e88b3435c.png",
+    "static/media/stylesheet.png": "/leslieayacocho/static/media/stylesheet.65dd2c7698dcea57a39f.png",
     "index.html": "/leslieayacocho/index.html",
     "main.a0290970.css.map": "/leslieayacocho/static/css/main.a0290970.css.map",
-    "main.19128e28.js.map": "/leslieayacocho/static/js/main.19128e28.js.map"
+    "main.ba60db1a.js.map": "/leslieayacocho/static/js/main.ba60db1a.js.map"
   },
   "entrypoints": [
     "static/css/main.a0290970.css",
-    "static/js/main.19128e28.js"
+    "static/js/main.ba60db1a.js"
   ]
 }
